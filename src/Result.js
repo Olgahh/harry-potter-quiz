@@ -6,7 +6,7 @@ class Result extends Component {
   render() {
     return (
       <div className="container pb-3" style={{ backgroundImage: `url(${bg})` }}>
-        <div className="card w-85">
+        <div className="card w-75 mx-auto ">
           <div className="card-body text-center">
             <img src={result} className="card-img-top w-75" alt="..." />
             <h2 className="card-title mt-3">

@@ -9,7 +9,7 @@ class Answers extends Component {
   render() {
     return (
       <div className="row justify-content-center">
-        <div className="card w-75 pr-4 pl-4 mb-4 mt=3 pt=3 ">
+        <div className="card w-75 pr-4 pl-4 mb-4 mt=3 pt=3">
           <div className="card-body text-center">
             <h3 className="card-title">{this.props.question}</h3>
 
